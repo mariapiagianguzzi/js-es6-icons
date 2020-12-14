@@ -18,7 +18,16 @@ $(document).ready(function () {
     new icons("fish", "fas", "fa-fish", "animals"),
     new icons("frog", "fas", "fa-frog", "animals"),
     new icons("hippo", "fas", "fa-hippo", "animals"),
-    new icons("horse", "fas", "fa-horse", "animals")
+    new icons("horse", "fas", "fa-horse", "animals"),
+    new icons("carrot", "fas", "fa-carrot", "fruits & vegetables"),
+    new icons("apple-alt", "fas", "fa-apple-alt", "fruits & vegetables"),
+    new icons("lemon", "fas", "fa-lemon", "fruits & vegetables"),
+    new icons("pepper-hot", "fas", "fa-pepper-hot", "fruits & vegetables"),
+    new icons("user-astronaut","fas", "fa-user-astronaut","users & people"),
+    new icons("user-graduate","fas", "fa-user-graduate","users & people"),
+    new icons("user-ninja","fas", "fa-user-ninja","users & people"),
+    new icons("user-secret","fas", "fa-user-secret","users & people")
+    
   ];
   console.log(icone);
 
@@ -26,7 +35,7 @@ $(document).ready(function () {
   const container = document.getElementById("icons");
   
 
-  //inseriamo le icone nel container (possiamo creare una funzione tipo print() per inserire gli elementi e richiamarla qui)
+//inseriamo le icone nel container (possiamo creare una funzione tipo print() per inserire gli elementi e richiamarla qui)
 icone.forEach(icons => {
   const markup = `
     <div>
